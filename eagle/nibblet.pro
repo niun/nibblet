@@ -2,8 +2,8 @@ EAGLE AutoRouter Statistics:
 
 Job           : /home/pascal/p/devel/nibblet/eagle/nibblet.brd
 
-Start at      : 18:29:18 (22.02.13)
-End at        : 18:29:24 (22.02.13)
+Start at      : 18:53:06 (22.02.13)
+End at        : 18:53:12 (22.02.13)
 Elapsed time  : 00:00:06
 
 Signals       :    40   RoutingGrid: 3.93701 mil  Layers: 2
