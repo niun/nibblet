@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6930,6 +6930,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="PAD2" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
+<part name="PAD3" library="wirepad" deviceset="WIREPAD" device="SMD1,27-254"/>
 </parts>
 <sheets>
 <sheet>
@@ -6982,6 +6984,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R13" gate="G$1" x="78.74" y="88.9"/>
 <instance part="R14" gate="G$1" x="78.74" y="86.36"/>
 <instance part="R15" gate="G$1" x="78.74" y="83.82"/>
+<instance part="PAD2" gate="G$1" x="5.08" y="78.74"/>
+<instance part="PAD3" gate="G$1" x="5.08" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -7052,6 +7056,16 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="IC1" gate="G$1" pin="GND@1"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="PAD1" gate="G$1" pin="P"/>
+<wire x1="15.24" y1="86.36" x2="10.16" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="PAD3" gate="G$1" pin="P"/>
+<wire x1="10.16" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="93.98" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="93.98" x2="10.16" y2="86.36" width="0.1524" layer="91"/>
+<junction x="10.16" y="86.36"/>
+<wire x1="10.16" y1="86.36" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="PAD2" gate="G$1" pin="P"/>
+<wire x1="10.16" y1="78.74" x2="7.62" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="96.52" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
