@@ -165,6 +165,56 @@ Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 <rectangle x1="-2.2286" y1="3.556" x2="-1.7714" y2="4.5466" layer="51"/>
 <rectangle x1="-3.0286" y1="3.556" x2="-2.5714" y2="4.5466" layer="51"/>
 </package>
+<package name="SO20L">
+<description>&lt;B&gt;Small Outline Package&lt;/B&gt; SOIC 0.300"</description>
+<wire x1="-5.639" y1="-4.064" x2="6.909" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="6.909" y1="-4.064" x2="6.909" y2="3.277" width="0.1524" layer="21"/>
+<wire x1="6.909" y1="3.277" x2="-5.639" y2="3.277" width="0.1524" layer="21"/>
+<wire x1="-5.639" y1="3.277" x2="-5.639" y2="-4.064" width="0.1524" layer="21"/>
+<circle x="-4.7498" y="-3.1496" radius="0.5334" width="0.1524" layer="21"/>
+<smd name="1" x="-5.08" y="-5.1308" dx="0.762" dy="1.143" layer="1"/>
+<smd name="2" x="-3.81" y="-5.1308" dx="0.762" dy="1.143" layer="1"/>
+<smd name="3" x="-2.54" y="-5.1308" dx="0.762" dy="1.143" layer="1"/>
+<smd name="4" x="-1.27" y="-5.1308" dx="0.762" dy="1.143" layer="1"/>
+<smd name="5" x="0" y="-5.1308" dx="0.762" dy="1.143" layer="1"/>
+<smd name="6" x="1.27" y="-5.1308" dx="0.762" dy="1.143" layer="1"/>
+<smd name="7" x="2.54" y="-5.1308" dx="0.762" dy="1.143" layer="1"/>
+<smd name="8" x="3.81" y="-5.1308" dx="0.762" dy="1.143" layer="1"/>
+<smd name="9" x="5.08" y="-5.1308" dx="0.762" dy="1.143" layer="1"/>
+<smd name="10" x="6.35" y="-5.1308" dx="0.762" dy="1.143" layer="1"/>
+<smd name="12" x="5.08" y="4.3942" dx="0.762" dy="1.143" layer="1"/>
+<smd name="11" x="6.35" y="4.3688" dx="0.762" dy="1.143" layer="1"/>
+<smd name="13" x="3.81" y="4.3942" dx="0.762" dy="1.143" layer="1"/>
+<smd name="14" x="2.54" y="4.3942" dx="0.762" dy="1.143" layer="1"/>
+<smd name="15" x="1.27" y="4.3942" dx="0.762" dy="1.143" layer="1"/>
+<smd name="16" x="0" y="4.3942" dx="0.762" dy="1.143" layer="1"/>
+<smd name="17" x="-1.27" y="4.3942" dx="0.762" dy="1.143" layer="1"/>
+<smd name="18" x="-2.54" y="4.3942" dx="0.762" dy="1.143" layer="1"/>
+<smd name="19" x="-3.81" y="4.3942" dx="0.762" dy="1.143" layer="1"/>
+<smd name="20" x="-5.08" y="4.3942" dx="0.762" dy="1.143" layer="1"/>
+<text x="-6.0706" y="-3.81" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-4.445" y="-1.5494" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="6.1468" y1="3.3274" x2="6.5532" y2="4.6482" layer="51"/>
+<rectangle x1="4.8768" y1="3.3274" x2="5.2832" y2="4.6482" layer="51"/>
+<rectangle x1="3.6068" y1="3.3274" x2="4.0132" y2="4.6482" layer="51"/>
+<rectangle x1="2.3368" y1="3.3274" x2="2.7432" y2="4.6482" layer="51"/>
+<rectangle x1="1.0668" y1="3.3274" x2="1.4732" y2="4.6482" layer="51"/>
+<rectangle x1="-0.2032" y1="3.3274" x2="0.2032" y2="4.6482" layer="51"/>
+<rectangle x1="-1.4732" y1="3.3274" x2="-1.0668" y2="4.6482" layer="51"/>
+<rectangle x1="-2.7432" y1="3.3274" x2="-2.3368" y2="4.6482" layer="51"/>
+<rectangle x1="-4.0132" y1="3.3274" x2="-3.6068" y2="4.6482" layer="51"/>
+<rectangle x1="-5.2832" y1="3.3274" x2="-4.8768" y2="4.6482" layer="51"/>
+<rectangle x1="6.1468" y1="-5.4356" x2="6.5532" y2="-4.1148" layer="51"/>
+<rectangle x1="4.8768" y1="-5.4356" x2="5.2832" y2="-4.1148" layer="51"/>
+<rectangle x1="3.6068" y1="-5.4356" x2="4.0132" y2="-4.1148" layer="51"/>
+<rectangle x1="2.3368" y1="-5.4356" x2="2.7432" y2="-4.1148" layer="51"/>
+<rectangle x1="1.0668" y1="-5.4356" x2="1.4732" y2="-4.1148" layer="51"/>
+<rectangle x1="-0.2032" y1="-5.4356" x2="0.2032" y2="-4.1148" layer="51"/>
+<rectangle x1="-1.4732" y1="-5.4356" x2="-1.0668" y2="-4.1148" layer="51"/>
+<rectangle x1="-2.7432" y1="-5.4356" x2="-2.3368" y2="-4.1148" layer="51"/>
+<rectangle x1="-4.0132" y1="-5.4356" x2="-3.6068" y2="-4.1148" layer="51"/>
+<rectangle x1="-5.2832" y1="-5.4356" x2="-4.8768" y2="-4.1148" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="rcl">
@@ -505,6 +555,26 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <element name="R15" library="rcl" package="R0805" value="" x="6.6" y="15.6"/>
 <element name="PAD2" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="16.4" y="7.8" rot="MR150"/>
 <element name="PAD3" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="16.4" y="9.8" rot="MR30"/>
+<element name="IC2" library="atmel" package="SO20L" value="AT90S2313S" x="7.6" y="-5.7">
+<attribute name="OC_NEWARK" value="unknown" x="7.6" y="-5.7" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="7.6" y="-5.7" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="7.6" y="-5.7" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="7.6" y="-5.7" size="1.778" layer="27" display="off"/>
+</element>
+<element name="LED15" library="led" package="CHIP-LED0805" value="" x="2.2" y="-16.3"/>
+<element name="LED16" library="led" package="CHIP-LED0805" value="" x="6.2" y="-16.3"/>
+<element name="LED17" library="led" package="CHIP-LED0805" value="" x="10.2" y="-16.3"/>
+<element name="LED18" library="led" package="CHIP-LED0805" value="" x="14.2" y="-16.3"/>
+<element name="LED19" library="led" package="CHIP-LED0805" value="" x="2.2" y="-22.9"/>
+<element name="LED20" library="led" package="CHIP-LED0805" value="" x="6.2" y="-22.9"/>
+<element name="LED21" library="led" package="CHIP-LED0805" value="" x="10.2" y="-22.9"/>
+<element name="LED22" library="led" package="CHIP-LED0805" value="" x="14.2" y="-22.9"/>
+<element name="LED23" library="led" package="CHIP-LED0805" value="" x="2.2" y="-29.5"/>
+<element name="LED24" library="led" package="CHIP-LED0805" value="" x="6.2" y="-29.5"/>
+<element name="LED25" library="led" package="CHIP-LED0805" value="" x="10.2" y="-29.5"/>
+<element name="LED26" library="led" package="CHIP-LED0805" value="" x="14.2" y="-29.5"/>
+<element name="LED27" library="led" package="CHIP-LED0805" value="" x="2.2" y="-36.1"/>
+<element name="LED28" library="led" package="CHIP-LED0805" value="" x="6.2" y="-36.1"/>
 </elements>
 <signals>
 <signal name="AVCC">
@@ -564,6 +634,8 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <via x="20.9" y="23.2" extent="1-16" drill="0.3"/>
 <via x="20.9" y="24.4" extent="1-16" drill="0.3"/>
 <via x="21.7" y="22" extent="1-16" drill="0.3"/>
+<contactref element="IC2" pad="20"/>
+<wire x1="2.52" y1="-1.3058" x2="28.7" y2="11.8" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GND">
 <contactref element="IC1" pad="21"/>
@@ -673,6 +745,8 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <wire x1="15.7" y1="8.7" x2="16.4" y2="8" width="0.4064" layer="16"/>
 <wire x1="16.4" y1="8" x2="16.4" y2="7.8" width="0.4064" layer="16"/>
 <wire x1="14.3" y1="8.7" x2="15.7" y2="8.7" width="0.4064" layer="16"/>
+<contactref element="IC2" pad="10"/>
+<wire x1="13.95" y1="-10.8308" x2="13.6" y2="5.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="IC1" pad="19"/>
@@ -1200,6 +1274,70 @@ minimale Strichstärke: &lt;b&gt;0.2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
 <wire x1="7.5" y1="15.6" x2="7.55" y2="15.6" width="0.1524" layer="1"/>
 <via x="6" y="13.7" extent="1-16" drill="0.3"/>
 <via x="7.2" y="14.3" extent="1-16" drill="0.3"/>
+</signal>
+<signal name="N$37">
+<contactref element="LED27" pad="C"/>
+<contactref element="LED23" pad="C"/>
+<contactref element="LED19" pad="C"/>
+<contactref element="LED15" pad="C"/>
+<wire x1="2.2" y1="-28.45" x2="2.2" y2="-35.05" width="0" layer="19" extent="1-1"/>
+<wire x1="2.2" y1="-21.85" x2="2.2" y2="-28.45" width="0" layer="19" extent="1-1"/>
+<wire x1="2.2" y1="-15.25" x2="2.2" y2="-21.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$38">
+<contactref element="LED27" pad="A"/>
+<contactref element="LED28" pad="A"/>
+<wire x1="6.2" y1="-37.15" x2="2.2" y2="-37.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$39">
+<contactref element="LED23" pad="A"/>
+<contactref element="LED24" pad="A"/>
+<contactref element="LED25" pad="A"/>
+<contactref element="LED26" pad="A"/>
+<wire x1="6.2" y1="-30.55" x2="2.2" y2="-30.55" width="0" layer="19" extent="1-1"/>
+<wire x1="10.2" y1="-30.55" x2="6.2" y2="-30.55" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="-30.55" x2="10.2" y2="-30.55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$40">
+<contactref element="LED19" pad="A"/>
+<contactref element="LED20" pad="A"/>
+<contactref element="LED21" pad="A"/>
+<contactref element="LED22" pad="A"/>
+<wire x1="6.2" y1="-23.95" x2="2.2" y2="-23.95" width="0" layer="19" extent="1-1"/>
+<wire x1="10.2" y1="-23.95" x2="6.2" y2="-23.95" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="-23.95" x2="10.2" y2="-23.95" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$41">
+<contactref element="LED15" pad="A"/>
+<contactref element="LED16" pad="A"/>
+<contactref element="LED17" pad="A"/>
+<contactref element="LED18" pad="A"/>
+<wire x1="6.2" y1="-17.35" x2="2.2" y2="-17.35" width="0" layer="19" extent="1-1"/>
+<wire x1="10.2" y1="-17.35" x2="6.2" y2="-17.35" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="-17.35" x2="10.2" y2="-17.35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$42">
+<contactref element="LED28" pad="C"/>
+<contactref element="LED24" pad="C"/>
+<contactref element="LED20" pad="C"/>
+<contactref element="LED16" pad="C"/>
+<wire x1="6.2" y1="-28.45" x2="6.2" y2="-35.05" width="0" layer="19" extent="1-1"/>
+<wire x1="6.2" y1="-21.85" x2="6.2" y2="-28.45" width="0" layer="19" extent="1-1"/>
+<wire x1="6.2" y1="-15.25" x2="6.2" y2="-21.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$43">
+<contactref element="LED25" pad="C"/>
+<contactref element="LED21" pad="C"/>
+<contactref element="LED17" pad="C"/>
+<wire x1="10.2" y1="-21.85" x2="10.2" y2="-28.45" width="0" layer="19" extent="1-1"/>
+<wire x1="10.2" y1="-15.25" x2="10.2" y2="-21.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$44">
+<contactref element="LED26" pad="C"/>
+<contactref element="LED22" pad="C"/>
+<contactref element="LED18" pad="C"/>
+<wire x1="14.2" y1="-21.85" x2="14.2" y2="-28.45" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="-15.25" x2="14.2" y2="-21.85" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
